@@ -1,10 +1,11 @@
-const mock = [
+const companyMock = [
   {
     name: 'Google',
     vacancies: [
       {
+				_id: ObjectId(),
         position: 'Middle backend Java developer',
-        description: '',
+        description: 'temp',
       }
     ],
   },
@@ -12,8 +13,9 @@ const mock = [
     name: 'Microsoft',
     vacancies: [
       {
+				_id: ObjectId(),
         position: 'Junior frontend Javascript developer',
-        description: '',
+        description: 'temp',
       }
     ],
   },
@@ -21,15 +23,17 @@ const mock = [
     name: 'Meta',
     vacancies: [
       {
+				_id: ObjectId(),
         position: 'Middle Go developer',
-        description: '',
+        description: 'temp',
       },
       {
+				_id: ObjectId(),
         position: 'Senior PHP developer',
-        description: '',
+        description: 'temp',
       }
     ],
   },
 ];
 
-export default mock;
+module.export = companyMock;

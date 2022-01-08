@@ -1,6 +1,4 @@
-import Mongoose from "mongoose";
-
-export const Vacancy = {
+const Vacancy = {
 	bsonType: 'object',
 	required: ['position', 'description'],
 	description: 'required',
@@ -18,32 +16,14 @@ export const Vacancy = {
 			description: 'must be a string',
 		},
 		experience: {
-			bsonType: 'number',
+			bsonType: 'int',
 			description: 'must be a number',
 		},
 		salary: {
-			bsonType: 'number',
+			bsonType: 'int',
 			description: 'must be a number',
 		},
 	},
 };
 
-export const VacancySchema = new Mongoose.Schema({
-	position: {
-		type: String,
-		required: true,
-	},
-	description: {
-		type: String,
-		required: true,
-	},
-	city: {
-		type: String,
-	},
-	experience: {
-		type: Number,
-	},
-	salary: {
-		type: Number,
-	},
-});
+module.export = Vacancy;

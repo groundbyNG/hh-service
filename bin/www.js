@@ -10,7 +10,7 @@ import http from "http";
 import mongoose from "mongoose";
 
 try {
-  await mongoose.connect("mongodb://localhost:27017/hh");
+  await mongoose.connect("mongodb://localhost:27003/hh");
 } catch (err) {
   console.log(err);
 }

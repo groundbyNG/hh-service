@@ -1,6 +1,4 @@
-import Mongoose from "mongoose";
-
-export const Review = {
+const Review = {
 	bsonType: 'object',
 	required: ['description'],
 	properties: {
@@ -13,21 +11,10 @@ export const Review = {
 			description: 'must be a string',
 		},
 		experience: {
-			bsonType: 'number',
+			bsonType: 'int',
 			description: 'must be a number',
 		},
 	},
 };
 
-export const ReviewSchema = new Mongoose.Schema({
-	position: {
-		type: String,
-	},
-	description: {
-		type: String,
-		required: true,
-	},
-	experience: {
-		type: String,
-	},
-});
+module.export = Review;
