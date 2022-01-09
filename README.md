@@ -16,7 +16,7 @@ Tested on next environment:
 
 INSTALLATION
 ------------
-1. Install [mongodb](mongodb.com) , [mongosh](https://docs.mongodb.com/mongodb-shell/)
+1. Install [mongodb](https://mongodb.com) , [mongosh](https://docs.mongodb.com/mongodb-shell/)
 2. Run: 
 ```
   >  npm i
