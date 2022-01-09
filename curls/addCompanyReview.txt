@@ -1,0 +1,7 @@
+curl --location --request POST 'http://192.168.1.42:3000/company/61d9f244e8c77f744ae131b6/review' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "review": {
+        "description": "temp"
+    }
+}'

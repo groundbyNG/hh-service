@@ -1,0 +1,9 @@
+curl --location --request POST 'http://192.168.1.42:3000/company/' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "name": "Amazon",
+    "vacancies": {
+        "position": "Senior Developer",
+        "description": "temp"
+    }
+}'

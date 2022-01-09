@@ -1,0 +1,12 @@
+curl --location --request PUT 'http://192.168.1.42:3000/user/61d9f244e8c77f744ae131ba/cv/61d9f244e8c77f744ae131b3' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "cv": {
+        "email": "c@mongodb.com",
+        "position": "Senior C++ developer",
+        "skills": "PHP, Laravel, Yii",
+        "description": "temp",
+        "experience": 7,
+        "salary": 5600
+    }
+}'

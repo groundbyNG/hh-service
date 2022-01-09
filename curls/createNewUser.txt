@@ -1,0 +1,13 @@
+curl --location --request POST 'http://192.168.1.42:3000/user/' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "name": "Pete",
+    "cv": {
+        "email": "abc@mongodb.com",
+        "position": "Senior Developer",
+        "skills": "Java",
+        "description": "temp",
+        "experience": 3,
+        "salary": 1000
+    }
+}'

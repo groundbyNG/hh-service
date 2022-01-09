@@ -1,0 +1,8 @@
+curl --location --request POST 'http://192.168.1.42:3000/user/61d9f244e8c77f744ae131ba/respond' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "respond": {
+        "email": "c@mongodb.com",
+        "description": "temp"
+    }
+}'

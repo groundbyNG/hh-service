@@ -1,0 +1,1 @@
+curl --location --request DELETE 'http://192.168.1.42:3000/company/61d9f244e8c77f744ae131b5/vacancy/61d9f49fda8e5c09212b87f4'
